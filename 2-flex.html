@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="2-flex.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" media="screen">
+    <title>CSS Flexbox Layout</title>
+  </head>
+  <body>
+    <div class="over-packed">
+      <div class="scroll-container">
+        <div class="scroll-item item1">One</div>
+        <div class="scroll-item item2">Two</div>
+        <div class="scroll-item item3">Three</div>
+        <div class="scroll-item item4">Four</div>
+        <div class="scroll-item item5">Five</div>
+        <div class="scroll-item item6">Six</div>
+        <div class="scroll-item item7">Seven</div>
+        <div class="scroll-item item8">Eight</div>
+        <div class="scroll-item item9">Nine</div>
+        <div class="scroll-item item10">Ten</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="carousel-container main-gallery js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-item gallery-cell item1">One</div>
+        <div class="carousel-item gallery-cell item2">Two</div>
+        <div class="carousel-item gallery-cell item3">Three</div>
+        <div class="carousel-item gallery-cell item4">Four</div>
+        <div class="carousel-item gallery-cell item5">Five</div>
+        <div class="carousel-item gallery-cell item6">Six</div>
+        <div class="carousel-item gallery-cell item7">Seven</div>
+        <div class="carousel-item gallery-cell item8">Eight</div>
+        <div class="carousel-item gallery-cell item9">Nine</div>
+        <div class="carousel-item gallery-cell item10">Ten</div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+  </body>
+</html>
